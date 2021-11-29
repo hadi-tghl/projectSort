@@ -11,7 +11,7 @@ public class Main {
             }
             else {
                 isRunning = false;
-                System.out.println("You have entered wrong value! Please enter Numeric value ");
+                System.out.println("You have entered wrong value! Please enter a Numeric value ");
             }
         }
         if (isRunning ){
@@ -22,7 +22,7 @@ public class Main {
 
     }
 
-    // method to verify user input is a number not a Srtring
+    // method to verify user input is a Integer not a Srtring.
     public static boolean isNumeric(String strNum) {
         if (strNum == null) {
             return false;
