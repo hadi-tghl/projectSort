@@ -2,6 +2,7 @@ package com.company;
 
 public class Main {
 
+    // main method begins here.
     public static void main(String[] args) {
         int[] argss = new int[args.length];
         boolean isRunning = true;
@@ -34,11 +35,4 @@ public class Main {
         }
         return true;
     }
-
-
-
-
-    
-
-
 }
