@@ -28,12 +28,13 @@ public class Main {
             return false;
         }
         try {
-            double d = Double.parseDouble(strNum);
+            int d = Integer.parseInt(strNum);
         } catch (NumberFormatException nfe) {
             return false;
         }
         return true;
     }
+
 
 
 
