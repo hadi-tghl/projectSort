@@ -1,7 +1,7 @@
 package com.company;
 
 public class Sorter {
-    // printing methods to print out arrays
+    // printing method to print out input arrays. 
     public static void printArray(int[] args){
         for (int i : args) {
             System.out.println(i + " ");
@@ -9,14 +9,14 @@ public class Sorter {
         System.out.println();
     }
 
-    // method for swapings args from smallest to the largest
+    // Swap method for integrating Integer and swapings from right to left depending on a input value.
     public static void swap(int[] args, int left, int right){
         int temp = args[left];
         args[left] = args[right];
         args[right] = temp;
     }
 
-    // method for sorting with help of swap method
+    // method for sorting a number from smallest to the bigger with help of swap method.
     public static void selctSort(int[] args){
         int min;
         for (int i = 0; i < args.length - 1; i++) {
