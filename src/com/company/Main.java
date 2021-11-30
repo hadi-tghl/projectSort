@@ -12,7 +12,8 @@ public class Main {
             }
             else {
                 isRunning = false;
-                System.out.println("You have entered wrong value! Please enter a Numeric value ");
+                System.out.println("You have entered wrong value! Please enter a number "+
+                        "\n number like [ 1 , 2 ,3 ) or [-1, -2 -3] ");
             }
         }
         if (isRunning ){
