@@ -4,11 +4,11 @@
 
 User guide:
 
-• The purpose of this project is to teach us how to independently create programs in Java. 
+   • The purpose of this project is to teach us how to independently create programs in Java. 
 
-• This program contains java class files for sorting user input and the Main class.
+   • This program contains java class files for sorting user input and the Main class.
     
- • By downloading the two Main.java and Sorter.java files, you could run the program on your any machine, Windows/Linux/Mac without any problems. Just make sure       you have the JDK installed on your machine Ex of running the program:
+   • By downloading the two Main.java and Sorter.java files, you could run the program on your any machine, Windows/Linux/Mac without any problems. Just make sure       you have the JDK installed on your machine Ex of running the program:
     
         ◦ $ javac Main.java // Compiling the java file.
         ◦ $ java Main 76 11 -55 2 16 -21 7 88 // Run the program with some user arguments
