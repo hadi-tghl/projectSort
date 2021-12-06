@@ -1,22 +1,21 @@
 package com.company;
 
 import org.junit.jupiter.api.Test;
+import java.util.Arrays;
+import static org.junit.Assert.assertTrue;
 
 public class SortTest {
 
     public class Sort extends Sorter() {
         Sorter sorter;
-        Integer[] testClass;
-        Integer[] testResult;
-
-        // Frist test 
+        // Frist test
         @Test
         void testSortInt(){
-            Integer[] in = {-2,10,3,6,15,-13};
-            Integer[] result = {-13,-2,3,6,10,15};
+            int[] in = {-2,10,3,6,15,-13};
+            int[] result = {-13,-2,3,6,10,15};
 
-            sorter = new Sorter(testClass);
-            assertArraysEquals(testResult, sorter.selectSort());
+            sorter = new Sorter();
+            assertTrue(Arrays.equals(in, result));
 
         }
 
@@ -26,8 +25,8 @@ public class SortTest {
             Integer[] in = {986,456,789,867,100,-100};
             Integer[] result = {-100,100,456,789,867,986};
 
-            sorter = new Sorter(testClass);
-            assertArraysEquals(testResult, sorter.slectSort());
+            sorter = new Sorter();
+            assertTrue(Arrays.equals(in, result));
         }
     }
 
