@@ -2,7 +2,7 @@
 
 
 
-User guide:
+How to Install:
 
    • The purpose of this project is to teach us how to independently create programs in Java. 
 
@@ -13,4 +13,5 @@ User guide:
         ◦ $ javac Main.java // Compiling the java file.
         ◦ $ java Main 76 11 -55 2 16 -21 7 88 // Run the program with some user arguments
         ◦ Output should be like this  => -55 -21 2 7 11 16 76 88
-
+		  
+		  
