@@ -9,6 +9,7 @@ public class SortTest {
         int[] testClass;
         int[] testResult;
 
+        // Frist test 
         @Test
         void testSortInt(){
             Integer[] in = {-2,10,3,6,15,-13};
@@ -19,6 +20,7 @@ public class SortTest {
 
         }
 
+        // Secoud test
         @Test
         void testSortInt1(){
             Integer[] in = {986,456,789,867,100,-100};
@@ -28,4 +30,6 @@ public class SortTest {
             assertArraysEquals(testResult, sorter.slectSort());
         }
     }
+
+
 }
