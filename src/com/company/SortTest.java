@@ -6,8 +6,8 @@ public class SortTest {
 
     public class Sort extends Sorter() {
         Sorter sorter;
-        int[] testClass;
-        int[] testResult;
+        Integer[] testClass;
+        Integer[] testResult;
 
         // Frist test 
         @Test
