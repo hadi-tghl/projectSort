@@ -11,8 +11,8 @@ public class SortTest {
         // Frist test
         @Test
         void testSortInt(){
-            int[] in = {-2,10,3,6,15,-13};
-            int[] result = {-13,-2,3,6,10,15};
+            int[] in = new int[]{-2, 10, 3, 6, 15, -13};
+            int[] result = new int[]{-13, -2, 3, 6, 10, 15};
 
             sorter = new Sorter();
             assertTrue(Arrays.equals(in, result));
@@ -22,8 +22,8 @@ public class SortTest {
         // Secoud test
         @Test
         void testSortInt1(){
-            Integer[] in = {986,456,789,867,100,-100};
-            Integer[] result = {-100,100,456,789,867,986};
+            int[] in = new int[]{986,456,789,867,100,-100};
+            int[] result = new int[]{-100,100,456,789,867,986};
 
             sorter = new Sorter();
             assertTrue(Arrays.equals(in, result));
