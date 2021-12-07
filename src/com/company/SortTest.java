@@ -8,7 +8,6 @@ public class SortTest {
 
     public class Sort extends Sorter() {
         Sorter sorter;
-        // Frist test
         @Test
         void testSortInt(){
             int[] in = new int[]{-2, 10, 3, 6, 15, -13};
@@ -19,7 +18,7 @@ public class SortTest {
 
         }
 
-        // Secoud test
+
         @Test
         void testSortInt1(){
             int[] in = new int[]{986,456,789,867,100,-100};
