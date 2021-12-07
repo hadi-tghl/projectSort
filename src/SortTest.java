@@ -6,10 +6,8 @@ import static org.junit.Assert.assertTrue;
 
 public class SortTest {
 
-    public class Sort extends Sorter() {
-        Sorter sorter;
         @Test
-        void testSortInt(){
+        public void testSortInt(){
             int[] in = new int[]{-2, 10, 3, 6, 15, -13};
             int[] result = new int[]{-13, -2, 3, 6, 10, 15};
 
@@ -20,7 +18,7 @@ public class SortTest {
 
 
         @Test
-        void testSortInt1(){
+        public void testSortInt1(){
             int[] in = new int[]{986,456,789,867,100,-100};
             int[] result = new int[]{-100,100,456,789,867,986};
 
