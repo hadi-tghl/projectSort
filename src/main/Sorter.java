@@ -1,7 +1,6 @@
-package com.company;
+package main;
 
 public class Sorter {
-    // printing method to print out input arrays.
     public static void printArray(int[] args){
         for (int i : args) {
             System.out.println(i + " ");
@@ -9,14 +8,12 @@ public class Sorter {
         System.out.println();
     }
 
-    // Swap method for integrating Integer and swapping from right to left.
     public static void swap(int[] args, int left, int right){
         int temp = args[left];
         args[left] = args[right];
         args[right] = temp;
     }
 
-    // method for sorting a number from smallest to highest value with help of swap method.
     public static void selctSort(int[] args){
         int min;
         for (int i = 0; i < args.length - 1; i++) {
