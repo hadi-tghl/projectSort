@@ -19,8 +19,6 @@ public class Main {
             Sorter.selctSort(argss);
             Sorter.printArray(argss);
         }
-
-
     }
 
     public static boolean isNumeric(String strNum) {
