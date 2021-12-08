@@ -2,7 +2,7 @@
 
 
 
-How to Install:
+__How to Install:__
 
    • The purpose of this project is to teach us how to independently create programs in Java. 
 
