@@ -16,7 +16,7 @@ public class Main {
             }
         }
         if (isRunning ){
-            Sorter.selctSort(argss);
+            Sorter.selectSort(argss);
             Sorter.printArray(argss);
         }
     }
