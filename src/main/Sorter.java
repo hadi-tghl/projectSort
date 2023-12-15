@@ -14,7 +14,7 @@ public class Sorter {
         args[right] = temp;
     }
 
-    public static void selctSort(int[] args){
+    public static void selectSort(int[] args){
         int min;
         for (int i = 0; i < args.length - 1; i++) {
             min = i;
